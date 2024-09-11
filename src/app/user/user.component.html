@@ -1,0 +1,10 @@
+<!-- outputing dynamic data -->
+<div>
+  <!-- adding event listeners -->
+  <button (click)="onSelectUser()" [class.active]="selected">
+    <!-- property binding -->
+    <img [src]="imagePath" [alt]="user.name" />
+    <!-- string interpolation -->
+    <span>{{ user.name }}</span>
+  </button>
+</div>
