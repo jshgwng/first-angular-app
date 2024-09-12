@@ -1,5 +1,5 @@
 <!-- outputing dynamic data -->
-<div>
+<app-card>
   <!-- adding event listeners -->
   <button (click)="onSelectUser()" [class.active]="selected">
     <!-- property binding -->
@@ -7,4 +7,4 @@
     <!-- string interpolation -->
     <span>{{ user.name }}</span>
   </button>
-</div>
+</app-card>
